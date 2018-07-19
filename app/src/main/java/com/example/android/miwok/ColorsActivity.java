@@ -14,16 +14,16 @@ public class ColorsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_colors);
 
-        ArrayList<String> colors = new ArrayList<String>();
+        ArrayList<Color> colors = new ArrayList<Color>();
 
-        colors.add("red");
-        colors.add("green");
-        colors.add("brown");
-        colors.add("gray");
-        colors.add("black");
-        colors.add("white");
-        colors.add("dusty yellow");
-        colors.add("mustard yellow");
+        colors.add(new Color ("red", "weṭeṭṭi"));
+        colors.add(new Color ("red", "weṭeṭṭi"));
+        colors.add(new Color ("red", "weṭeṭṭi"));
+        colors.add(new Color ("red", "weṭeṭṭi"));
+        colors.add(new Color ("red", "weṭeṭṭi"));
+        colors.add(new Color ("red", "weṭeṭṭi"));
+        colors.add(new Color ("red", "weṭeṭṭi"));
+        colors.add(new Color ("red", "weṭeṭṭi"));
 
         ArrayAdapter<String> itemAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, colors);
 
