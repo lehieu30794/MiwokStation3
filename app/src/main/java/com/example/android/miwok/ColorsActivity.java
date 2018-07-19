@@ -25,7 +25,7 @@ public class ColorsActivity extends AppCompatActivity {
         colors.add(new Color ("red", "weṭeṭṭi"));
         colors.add(new Color ("red", "weṭeṭṭi"));
 
-        ArrayAdapter<String> itemAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, colors);
+        ColorAdapter itemAdapter = new ColorAdapter(this, colors);
 
         ListView listView = (ListView) findViewById(R.id.color_list);
         listView.setAdapter(itemAdapter);
